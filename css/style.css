@@ -1,0 +1,29 @@
+body{margin:0; padding:0;}
+.main{width:1000px; margin:auto;}
+.main .bcolor{background:#666; height:77px; width:1000px;position:relative;}
+
+.main .img{float:left; position:absolute;}
+
+.main .img a{}
+.main .img a img{height:100px; width:100px; position:absolute;}
+.menu{}
+.menu ul{float:right; position:absolute; margin-top:0;}
+.menu ul li{
+    float:left;
+    list-style-type:none;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right:0;
+    
+}
+.menu ul li a{
+    
+    padding: 30px 30px;
+    color: black;
+    text-decoration: none;
+    display:block;
+    
+}
+.menu ul li a:hover{background:white; color:red;}
+.menu ul li:nth-child(1){margin-left:60px;}
+.menu ul li:nth-child(8){padding-right:15px; margin-left:0;}
