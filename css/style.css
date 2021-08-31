@@ -1,9 +1,14 @@
-*{margin:0;}
-.header-area{}
+*{
+    margin:0;
+}
+
+.header-wrapper{
+    background-color:#686de0;
+}
 .container{
     width:1170px; 
     margin:0 auto; 
-    background-color:#686de0;
+    
     
 }
 .img{
@@ -88,4 +93,16 @@
 
 .intro-form label{
     color:white;
+}
+
+/** 
+* banner-area
+*/
+.banner-area{
+   
+}
+.banner-img{
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
