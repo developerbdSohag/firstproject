@@ -4,49 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1st Practice</title>
+    <title>My first practice</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="main">
-                <div class="bcolor">
-                    <div class="img">
-                        <a href="#"><img src="img/logo.png" alt="Logo"></a>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Camp</a></li>
-                            <li><a href="#">Start Up</a></li>
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Document</a></li>
-                            
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-    
-                    </div>
-                    
+    <header class="header-area">
+        <div class="container">
+            <!--logo-->
+            <div class="img">
+                <a href=""><img src="img/logo.png" alt="logo"></a>
             </div>
-
-
-
-              
-
-                
-
-
+            <!--main-menu starts-->
+            <div class="mainmanu">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">portfolio</a></li>
+                    <li><a href="">short listed</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
         </div>
-            
-
-
-
     </header>
-   
-
-
     
+    <!--banner part-->
+<center>
+    <div class="banner-part">
+            <div class="slider">
+                <img src="img/banner.jpg" alt="banner">
+            </div>
+            <div class="img-color">
+    
+            </div>
+            <div class="introduction">
+                <h1 id="demo">Welcome to my world</h1>
+            </div>
+            <div class="intro-form">
+                <form>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="password">Passaword:</label>
+                    <input type="password" id="password" name="fname"><br><br>
+                    <button type="button" onclick="myFunction()">Click me</button>
+                </form>
+            </div>
+            
+    </div>
+</center>
+<!--<div class="imglist">
+    <img src="img/img1.jpg" alt="">
+    <img src="img/img2.jpg" alt="">
+    <img src="img/img3.jpg" alt="">
+    <img src="img/img4.jpg" alt="">
+    <img src="img/img5.jpg" alt="">
+    
+</div>-->
+<script>
+    function myFunction() {
+        document.getElementById("demo").style.color ="red";
+        }
+</script>
+
+
+
+
 </body>
 </html>
