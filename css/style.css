@@ -1,13 +1,23 @@
+<<<<<<< HEAD
 *{margin:0;}
 body{
 
     background:#95a5a6;
 }
 .header-area{}
+=======
+*{
+    margin:0;
+}
+
+.header-wrapper{
+    background-color:#686de0;
+}
+>>>>>>> 5aed2af8094970e6a39b30be836d75a3d3020ddb
 .container{
     width:1170px; 
     margin:0 auto; 
-    background-color:#686de0;
+    
     
 }
 .img{
@@ -96,4 +106,16 @@ body{
 
 .intro-form label{
     color:white;
+}
+
+/** 
+* banner-area
+*/
+.banner-area{
+   
+}
+.banner-img{
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
